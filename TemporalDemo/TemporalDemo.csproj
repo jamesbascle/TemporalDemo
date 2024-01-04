@@ -7,13 +7,6 @@
         <Nullable>enable</Nullable>
         <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     </PropertyGroup>
-
-    <ItemGroup>
-      <Content Include="..\.dockerignore">
-        <Link>.dockerignore</Link>
-      </Content>
-    </ItemGroup>
-
     <ItemGroup>
       <PackageReference Include="Temporalio" Version="1.0.0" />
       <PackageReference Include="Temporalio.Extensions.Hosting" Version="1.0.0" />
